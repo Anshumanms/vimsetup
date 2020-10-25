@@ -7,10 +7,15 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdcommenter'
 Plug 'tpope/vim-surround'
 Plug 'airblade/vim-gitgutter'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
 set number
+syntax enable
 colorscheme evening
-"syntax enable
 "colorscheme monokai
+set tags=./tags,tags;$HOME
+"autocmd vimenter * colorscheme gruvbox "to enable gruvbox color scheme
